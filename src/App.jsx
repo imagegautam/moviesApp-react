@@ -1,14 +1,17 @@
-import { useState } from 'react'
-import './App.css'
+import React from 'react';
+import './App.css';
+import TopNav from './pages/TopNav';
+import Banner from './pages/Banner';
 
 function App() {
-  
-
   return (
     <>
-      Hello lets build react app
+    <TopNav />
+    <Banner />
     </>
-  )
+      
+    
+  );
 }
 
-export default App
+export default App;

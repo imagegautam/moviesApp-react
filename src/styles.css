@@ -1,0 +1,36 @@
+/* header css  */
+
+header {
+    position: fixed;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px; /* Corrected the padding values */
+    transition: 0.5s;
+    z-index: 10000;
+}
+
+header.scrolled {
+    background: rgb(0, 0, 0);
+    border-bottom: 2px solid var(--primary);
+    border-image: linear-gradient(90deg, transparent, var(--primary), transparent) 30;
+    backdrop-filter: blur(20px);
+    padding: 10px 100px; /* Corrected the padding values */
+}
+
+.logo {
+    font-family: 'Racing Sans One', cursive;
+    font-size: 35px;
+    color: #ffff;
+    letter-spacing: 2px;
+    font-weight: 800;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav {
+    display: flex;
+}
+
